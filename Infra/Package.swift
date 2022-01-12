@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "Infra",
             targets: ["Infra"]),
+        .library(name: "Api", targets: ["Api"])
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,6 +21,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "Infra",
+            dependencies: []),
+        .target(
+            name: "Api",
             dependencies: []),
         .testTarget(
             name: "InfraTests",
