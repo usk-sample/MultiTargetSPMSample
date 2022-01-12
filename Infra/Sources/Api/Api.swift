@@ -9,8 +9,8 @@ import Foundation
 
 class Api {
     
-    func request() {
-        
+    func request() -> Int {
+        return Int.random(in: 0..100)
     }
     
 }
