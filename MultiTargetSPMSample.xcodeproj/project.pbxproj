@@ -20,6 +20,7 @@
 		A8696E74278E99450027FFC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8696E77278E99450027FFC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A8696E7E278E9B2A0027FFC2 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = text; path = Domain; sourceTree = SOURCE_ROOT; };
+		A8696E7F278EA45E0027FFC2 /* Infra */ = {isa = PBXFileReference; lastKnownFileType = text; path = Infra; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		A8696E6F278E99440027FFC2 /* MultiTargetSPMSample */ = {
 			isa = PBXGroup;
 			children = (
+				A8696E7F278EA45E0027FFC2 /* Infra */,
 				A8696E7E278E9B2A0027FFC2 /* Domain */,
 				A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */,
 				A8696E72278E99440027FFC2 /* ContentView.swift */,
