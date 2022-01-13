@@ -8,9 +8,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @ObservedObject var viewModel = ViewModel()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        
+        VStack(spacing: 16) {
+            HStack {
+                Text("fetched : \(viewModel.fetchedNum)")
+                Button("Fetch") {
+                    viewModel.fetch()
+                }
+            }
+            HStack {
+                Text("visit : \(viewModel.visitNum)")
+                Button("Increment") {
+                    viewModel.incrementVisitNumber()
+                }
+            }
+        }
+        
     }
 }
 

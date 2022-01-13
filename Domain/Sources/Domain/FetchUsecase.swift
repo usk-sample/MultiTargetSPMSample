@@ -10,8 +10,14 @@ import Api
 import Store
 
 public class FetchUsecase {
+    
     private let api = Api()
     private let store = DataStore()
+    
+    public init() {
+        
+    }
+    
 }
 
 extension FetchUsecase {

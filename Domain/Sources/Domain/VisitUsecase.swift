@@ -9,7 +9,13 @@ import Foundation
 import Store
 
 public class VisitUsecase {
+    
     private let store = DataStore()
+    
+    public init() {
+        
+    }
+    
 }
 
 extension VisitUsecase {

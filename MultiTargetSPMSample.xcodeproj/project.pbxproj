@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8682D35278FBF0500FC4988 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8682D34278FBF0500FC4988 /* ViewModel.swift */; };
 		A8696E71278E99440027FFC2 /* MultiTargetSPMSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */; };
 		A8696E73278E99440027FFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696E72278E99440027FFC2 /* ContentView.swift */; };
 		A8696E75278E99450027FFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8696E74278E99450027FFC2 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A8682D34278FBF0500FC4988 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		A8696E6D278E99440027FFC2 /* MultiTargetSPMSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiTargetSPMSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiTargetSPMSampleApp.swift; sourceTree = "<group>"; };
 		A8696E72278E99440027FFC2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A8696E7E278E9B2A0027FFC2 /* Domain */,
 				A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */,
 				A8696E72278E99440027FFC2 /* ContentView.swift */,
+				A8682D34278FBF0500FC4988 /* ViewModel.swift */,
 				A8696E74278E99450027FFC2 /* Assets.xcassets */,
 				A8696E76278E99450027FFC2 /* Preview Content */,
 			);
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8696E73278E99440027FFC2 /* ContentView.swift in Sources */,
+				A8682D35278FBF0500FC4988 /* ViewModel.swift in Sources */,
 				A8696E71278E99440027FFC2 /* MultiTargetSPMSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
