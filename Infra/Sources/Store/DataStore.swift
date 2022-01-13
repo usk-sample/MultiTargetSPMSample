@@ -26,4 +26,14 @@ extension DataStore {
         }
     }
     
+    var fetchedNumber: Int {
+        set {
+            defaults.set(newValue, forKey: "num_fetched")
+            defaults.synchronize()
+        }
+        get {
+            return defaults.integer(forKey: "num_fetched")
+        }
+    }
+    
 }
