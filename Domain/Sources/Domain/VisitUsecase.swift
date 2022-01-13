@@ -8,6 +8,20 @@
 import Foundation
 import Store
 
-class VisitUsecase {
+public class VisitUsecase {
+    private let store = DataStore()
+}
+
+extension VisitUsecase {
+    
+    public func currentVisitNumber() -> Int {
+        return store.visitNumber
+    }
+    
+    public func incrementVisitNumber() -> Int {
+        let  num = store.visitNumber + 1
+        store.visitNumber = num
+        return num
+    }
     
 }

@@ -8,15 +8,19 @@
 import Foundation
 
 /// Store Data to UserDefaults
-class DataStore {
+public class DataStore {
     
     private let defaults = UserDefaults.standard
+    
+    public init() {
+        
+    }
     
 }
 
 extension DataStore {
     
-    var visitNumber: Int {
+    public var visitNumber: Int {
         set {
             defaults.set(newValue, forKey: "num_visit")
             defaults.synchronize()
@@ -26,7 +30,7 @@ extension DataStore {
         }
     }
     
-    var fetchedNumber: Int {
+    public var fetchedNumber: Int {
         set {
             defaults.set(newValue, forKey: "num_fetched")
             defaults.synchronize()

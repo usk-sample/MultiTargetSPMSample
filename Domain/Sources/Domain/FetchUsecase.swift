@@ -7,7 +7,19 @@
 
 import Foundation
 import Api
+import Store
 
-class FetchUsecase {
+public class FetchUsecase {
+    private let api = Api()
+    private let store = DataStore()
+}
+
+extension FetchUsecase {
+    
+    public func fetchAndStore() -> Int {
+        let num = api.request()
+        store.fetchedNumber = num
+        return num
+    }
     
 }

@@ -7,10 +7,15 @@
 
 import Foundation
 
-class Api {
+public class Api {
     
-    func request() -> Int {
+    public init() {
+        
+    }
+}
+
+extension Api {
+    public func request() -> Int {
         return Int.random(in: 0...100)
     }
-    
 }
