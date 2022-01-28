@@ -6,7 +6,8 @@
 //
 
 import Foundation
-import Domain
+import FetchFeature
+import VisitFeature
 
 class ViewModel: ObservableObject {
     

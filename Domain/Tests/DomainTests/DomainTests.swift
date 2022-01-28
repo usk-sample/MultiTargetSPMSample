@@ -1,5 +1,6 @@
 import XCTest
-@testable import Domain
+@testable import VisitFeature
+@testable import FetchFeature
 
 final class DomainTests: XCTestCase {
     func testExample() throws {

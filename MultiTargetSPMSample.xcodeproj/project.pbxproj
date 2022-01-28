@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8566EF127A3A7C400672B73 /* FetchFeature in Frameworks */ = {isa = PBXBuildFile; productRef = A8566EF027A3A7C400672B73 /* FetchFeature */; };
+		A8566EF327A3A7C400672B73 /* VisitFeature in Frameworks */ = {isa = PBXBuildFile; productRef = A8566EF227A3A7C400672B73 /* VisitFeature */; };
 		A8682D35278FBF0500FC4988 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8682D34278FBF0500FC4988 /* ViewModel.swift */; };
 		A8696E71278E99440027FFC2 /* MultiTargetSPMSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */; };
 		A8696E73278E99440027FFC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8696E72278E99440027FFC2 /* ContentView.swift */; };
 		A8696E75278E99450027FFC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8696E74278E99450027FFC2 /* Assets.xcassets */; };
 		A8696E78278E99450027FFC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8696E77278E99450027FFC2 /* Preview Assets.xcassets */; };
-		A8696E82278EBBEB0027FFC2 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = A8696E81278EBBEB0027FFC2 /* Domain */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +32,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8696E82278EBBEB0027FFC2 /* Domain in Frameworks */,
+				A8566EF127A3A7C400672B73 /* FetchFeature in Frameworks */,
+				A8566EF327A3A7C400672B73 /* VisitFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,8 @@
 			);
 			name = MultiTargetSPMSample;
 			packageProductDependencies = (
-				A8696E81278EBBEB0027FFC2 /* Domain */,
+				A8566EF027A3A7C400672B73 /* FetchFeature */,
+				A8566EF227A3A7C400672B73 /* VisitFeature */,
 			);
 			productName = MultiTargetSPMSample;
 			productReference = A8696E6D278E99440027FFC2 /* MultiTargetSPMSample.app */;
@@ -364,9 +367,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		A8696E81278EBBEB0027FFC2 /* Domain */ = {
+		A8566EF027A3A7C400672B73 /* FetchFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = Domain;
+			productName = FetchFeature;
+		};
+		A8566EF227A3A7C400672B73 /* VisitFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = VisitFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
