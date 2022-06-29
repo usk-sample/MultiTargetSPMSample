@@ -11,6 +11,7 @@ final class InfraTests: XCTestCase {
     func testDataStore() throws {
         let store = DataStore()
         
+        store.visitNumber = 0
         XCTAssertTrue(store.visitNumber == 0)
         store.visitNumber = 1
         XCTAssertTrue(store.visitNumber == 1)
