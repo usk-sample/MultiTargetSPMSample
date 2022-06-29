@@ -3,10 +3,17 @@ import XCTest
 @testable import Store
 
 final class InfraTests: XCTestCase {
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-
+    func testApi() throws {
+        let api = Api()
+        let result = api.request()
+        XCTAssertTrue(Array(0...100).contains(result))
+    }
+    func testDataStore() throws {
+        let store = DataStore()
+        
+        XCTAssertTrue(store.visitNumber == 0)
+        store.visitNumber = 1
+        XCTAssertTrue(store.visitNumber == 1)
+        
     }
 }
