@@ -43,6 +43,8 @@
 		A8696E64278E99440027FFC2 = {
 			isa = PBXGroup;
 			children = (
+				A8696E7F278EA45E0027FFC2 /* Infra */,
+				A8696E7E278E9B2A0027FFC2 /* Domain */,
 				A8696E6F278E99440027FFC2 /* MultiTargetSPMSample */,
 				A8696E6E278E99440027FFC2 /* Products */,
 				A8696E80278EBBEB0027FFC2 /* Frameworks */,
@@ -60,8 +62,6 @@
 		A8696E6F278E99440027FFC2 /* MultiTargetSPMSample */ = {
 			isa = PBXGroup;
 			children = (
-				A8696E7F278EA45E0027FFC2 /* Infra */,
-				A8696E7E278E9B2A0027FFC2 /* Domain */,
 				A8696E70278E99440027FFC2 /* MultiTargetSPMSampleApp.swift */,
 				A8696E72278E99440027FFC2 /* ContentView.swift */,
 				A8682D34278FBF0500FC4988 /* ViewModel.swift */,
